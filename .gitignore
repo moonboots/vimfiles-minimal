@@ -5,3 +5,4 @@ tags
 .VimballRecord
 .netrwhist
 bundle/vim-peepopen
+.svn
