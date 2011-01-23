@@ -52,3 +52,5 @@ set wildignore=*.o,*.obj,*~ "stuff to ignore when tab completing
 "mark syntax errors with :signs
 let g:syntastic_enable_signs=1
 
+" Search and replace highlighted text
+vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
