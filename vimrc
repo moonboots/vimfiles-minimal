@@ -54,3 +54,7 @@ let g:syntastic_enable_signs=1
 
 " Search and replace highlighted text
 vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
+
+"Command-T configuration
+let g:CommandTMaxHeight=10
+let g:CommandTMatchWindowAtTop=0
