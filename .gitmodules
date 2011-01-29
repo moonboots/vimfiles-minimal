@@ -4,3 +4,6 @@
 [submodule "bundle/xmledit"]
 	path = bundle/xmledit
 	url = git://github.com/sukima/xmledit.git
+[submodule "bundle/Command-T"]
+	path = bundle/Command-T
+	url = git://github.com/akitaonrails/Command-T.git
