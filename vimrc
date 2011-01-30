@@ -58,3 +58,8 @@ vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
 "Command-T configuration
 let g:CommandTMaxHeight=10
 let g:CommandTMatchWindowAtTop=0
+
+
+set hlsearch
+" Press Space to turn off highlighting and clear any message already displayed.
+:nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
