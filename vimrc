@@ -68,4 +68,4 @@ set hlsearch
 set selection=exclusive
 
 " Control+Space to escape
-map <C-Space> <Esc>
+map! <C-Space> <Esc>
