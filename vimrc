@@ -69,5 +69,19 @@ set hlsearch
 set selection=exclusive
 
 " Control+Space to escape
-map! <C-Space> <Esc>
 map <C-Space> <Esc>
+nmap <C-Space> <Esc>
+vmap <C-Space> <Esc>
+imap <C-Space> <Esc>
+omap <C-Space> <Esc>
+cmap <C-Space> <Esc>
+
+" Ctrl-space does different things on different platforms, so we need to kill
+" this behavior. See
+" http://vim.1045645.n5.nabble.com/problem-mapping-Ctrl-Space-td1155234.html
+" http://www.shallowsky.com/blog/linux/editors/vim-ctrl-space.html
+imap <Nul> <Esc>
+map <Nul> <Esc>
+vmap <Nul> <Esc>
+cmap <Nul> <Esc>
+nmap <Nul> <Esc>
