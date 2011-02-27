@@ -85,3 +85,6 @@ map <Nul> <Esc>
 vmap <Nul> <Esc>
 cmap <Nul> <Esc>
 nmap <Nul> <Esc>
+
+" old habit
+imap <c-s> <Esc>:w<CR>
