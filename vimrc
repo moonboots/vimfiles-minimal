@@ -89,3 +89,6 @@ nmap <Nul> <Esc>
 " old habit
 imap <c-s> <Esc>:w<CR>
 map <c-s> :w<CR>
+
+set t_Co=256
+colorscheme ir_dark
