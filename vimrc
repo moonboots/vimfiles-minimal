@@ -23,18 +23,6 @@ set softtabstop=2
 set expandtab
 set autoindent
 
-"turn on syntax highlighting
-syntax on
-
-"load ftplugins and indent files
-filetype plugin indent on
-
-" Settings for VimClojure
-let vimclojure#HighlightBuiltins=1
-let vimclojure#HighlightContrib=1
-let vimclojure#DynamicHighlighting=1
-let vimclojure#ParenRainbow=1
-
 silent! nmap <silent> <Leader>p :NERDTreeToggle<CR>
 nnoremap <silent> <C-f> :call FindInNERDTree()<CR> 
 
@@ -98,4 +86,16 @@ map <c-s> :w<CR>
 set t_Co=256
 colorscheme ir_dark
 
-"autocmd FileType clojure :AutoCloseOff
+"turn on syntax highlighting
+syntax on
+
+"load ftplugins and indent files
+filetype plugin indent on
+
+" Settings for VimClojure
+let vimclojure#HighlightBuiltins=1
+let vimclojure#HighlightContrib=1
+let vimclojure#DynamicHighlighting=1
+let vimclojure#ParenRainbow=1
+
+autocmd FileType clojure :AutoCloseOff
