@@ -23,12 +23,17 @@ set softtabstop=2
 set expandtab
 set autoindent
 
-"load ftplugins and indent files
-filetype plugin on
-filetype indent on
-
 "turn on syntax highlighting
 syntax on
+
+"load ftplugins and indent files
+filetype plugin indent on
+
+" Settings for VimClojure
+let vimclojure#HighlightBuiltins=1
+let vimclojure#HighlightContrib=1
+let vimclojure#DynamicHighlighting=1
+let vimclojure#ParenRainbow=1
 
 silent! nmap <silent> <Leader>p :NERDTreeToggle<CR>
 nnoremap <silent> <C-f> :call FindInNERDTree()<CR> 
@@ -54,7 +59,7 @@ let g:syntastic_enable_signs=1
 
 " Deprecated, shift+r already does this
 " Search and replace highlighted text
-vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
+vnoremap <C-r> "hy:%s/\<<C-r>h\>//gc<left><left><left>
 
 "Command-T configuration
 let g:CommandTMaxHeight=10
@@ -92,3 +97,5 @@ map <c-s> :w<CR>
 
 set t_Co=256
 colorscheme ir_dark
+
+"autocmd FileType clojure :AutoCloseOff
