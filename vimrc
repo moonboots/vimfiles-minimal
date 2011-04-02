@@ -98,4 +98,7 @@ let vimclojure#HighlightContrib=1
 let vimclojure#DynamicHighlighting=1
 let vimclojure#ParenRainbow=1
 
-autocmd FileType clojure :AutoCloseOff
+autocmd FileType clojure,lisp :AutoCloseOff
+
+" in vimdiff, press du to undo
+nmap du :wincmd w<cr>:normal u<cr>:wincmd w<cr>
