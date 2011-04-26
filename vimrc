@@ -26,12 +26,6 @@ set autoindent
 au BufNewFile,BufRead *.java set shiftwidth=4 | set softtabstop=4
 
 "load ftplugins and indent files
-filetype plugin on
-filetype indent on
-
-"turn on syntax highlighting
-syntax on
-
 silent! nmap <silent> <Leader>p :NERDTreeToggle<CR>
 nnoremap <silent> <C-f> :call FindInNERDTree()<CR> 
 
@@ -56,7 +50,7 @@ let g:syntastic_enable_signs=1
 
 " Deprecated, shift+r already does this
 " Search and replace highlighted text
-"vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
+vnoremap <C-r> "hy:%s/\<<C-r>h\>//gc<left><left><left>
 
 "Command-T configuration
 let g:CommandTMaxHeight=10
@@ -87,3 +81,27 @@ map <Nul> <Esc>
 vmap <Nul> <Esc>
 cmap <Nul> <Esc>
 nmap <Nul> <Esc>
+
+" old habit
+imap <c-s> <Esc>:w<CR>
+map <c-s> :w<CR>
+
+set t_Co=256
+colorscheme ir_dark
+
+"turn on syntax highlighting
+syntax on
+
+"load ftplugins and indent files
+filetype plugin indent on
+
+" Settings for VimClojure
+let vimclojure#HighlightBuiltins=1
+let vimclojure#HighlightContrib=1
+let vimclojure#DynamicHighlighting=1
+let vimclojure#ParenRainbow=1
+
+autocmd FileType clojure,lisp :AutoCloseOff
+
+" in vimdiff, press du to undo
+nmap du :wincmd w<cr>:normal u<cr>:wincmd w<cr>
