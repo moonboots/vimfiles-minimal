@@ -23,6 +23,8 @@ set softtabstop=2
 set expandtab
 set autoindent
 
+au BufNewFile,BufRead *.java set shiftwidth=4 | set softtabstop=4
+
 "load ftplugins and indent files
 filetype plugin on
 filetype indent on
