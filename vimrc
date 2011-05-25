@@ -101,7 +101,10 @@ let vimclojure#HighlightContrib=1
 let vimclojure#DynamicHighlighting=1
 let vimclojure#ParenRainbow=1
 
+" hacks for specific file types, TODO organize into bundles
 autocmd FileType clojure,lisp :AutoCloseOff
+autocmd FileType java set tabstop=4 shiftwidth=4 softtabstop=0 smarttab noexpandtab
+au BufRead,BufNewFile *.sf set filetype=java
 
 " in vimdiff, press du to undo
 nmap du :wincmd w<cr>:normal u<cr>:wincmd w<cr>
