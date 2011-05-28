@@ -27,7 +27,7 @@ au BufNewFile,BufRead *.java set shiftwidth=4 | set softtabstop=4
 
 "load ftplugins and indent files
 silent! nmap <silent> <Leader>p :NERDTreeToggle<CR>
-nnoremap <silent> <C-f> :call FindInNERDTree()<CR> 
+"nnoremap <silent> <C-f> :call FindInNERDTree()<CR> 
 
 "make <c-l> clear the highlight as well as redraw
 nnoremap <C-L> :nohls<CR><C-L>
