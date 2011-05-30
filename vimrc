@@ -61,9 +61,6 @@ set hlsearch
 " Press Space to turn off highlighting and clear any message already displayed.
 :nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 
-" to make highlighting feel more intuitive
-set selection=exclusive
-
 " Control+Space to escape
 map <C-Space> <Esc>
 nmap <C-Space> <Esc>
