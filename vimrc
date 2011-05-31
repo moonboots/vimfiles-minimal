@@ -3,6 +3,11 @@
 "necessary on some Linux distros for pathogen to properly load bundles
 filetype off
 
+let g:pathogen_disabled = []
+call add(g:pathogen_disabled, 'nerdtree')
+call add(g:pathogen_disabled, 'Command-T')
+call add(g:pathogen_disabled, 'dbext')
+
 "load pathogen managed plugins
 call pathogen#runtime_append_all_bundles()
 
