@@ -110,3 +110,5 @@ au BufRead,BufNewFile *.sf set filetype=java
 
 " in vimdiff, press du to undo
 nmap du :wincmd w<cr>:normal u<cr>:wincmd w<cr>
+
+set nowrap
