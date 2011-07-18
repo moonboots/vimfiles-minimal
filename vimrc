@@ -112,3 +112,5 @@ au BufRead,BufNewFile *.sf set filetype=java
 nmap du :wincmd w<cr>:normal u<cr>:wincmd w<cr>
 
 set nowrap
+
+let loaded_matchparen = 1
