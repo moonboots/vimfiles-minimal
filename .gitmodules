@@ -43,3 +43,6 @@
 [submodule "bundle/patchreview"]
 	path = bundle/patchreview
 	url = git://github.com/junkblocker/patchreview-vim.git
+[submodule "private"]
+	path = private
+	url = ./private
