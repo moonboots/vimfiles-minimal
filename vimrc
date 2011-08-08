@@ -114,3 +114,14 @@ nmap du :wincmd w<cr>:normal u<cr>:wincmd w<cr>
 set nowrap
 
 let loaded_matchparen = 1
+
+so ~/.vim/private/databases
+
+let g:dbext_default_ORA_cmd_header           = 
+                        \ "set pagesize 10000\n" .
+                        \ "set linesize 32767\n" .
+                        \ "set wrap off\n" .
+                        \ "set sqlprompt \"\"\n" .
+                        \ "set flush off\n" .
+                        \ "set colsep \"  \"\n" .
+                        \ "set tab off\n\n"
