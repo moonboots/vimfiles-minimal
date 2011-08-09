@@ -25,7 +25,6 @@ endif
 
 let colors_name = "ir_dark"
 
-
 "hi Example         guifg=NONE        guibg=NONE        gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
 
 " General colors
@@ -174,3 +173,8 @@ hi  link csXmlTag             Keyword
 
 
 " Special for PHP
+
+hi DiffAdd    guifg=#66CC00 guibg=#232323
+hi DiffDelete guifg=#990000 guibg=#232323
+hi DiffChange guifg=#FF9900 guibg=#232323
+hi DiffText   guifg=#FFCC00 guibg=#232323
