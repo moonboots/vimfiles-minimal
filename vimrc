@@ -125,3 +125,10 @@ let g:dbext_default_ORA_cmd_header           =
                         \ "set flush off\n" .
                         \ "set colsep \"  \"\n" .
                         \ "set tab off\n\n"
+" dbext connections
+let g:dbext_default_profile_mysql = 'type=MYSQL:user=jack:passwd=:dbname=heritage_health:host=ubuntu-server'
+
+" http://vimeo.com/6329762
+" dollar sign is change-word delimiter
+set cpoptions+=$
+set virtualedit+=all
