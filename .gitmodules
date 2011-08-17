@@ -48,4 +48,4 @@
 	url = ./private
 [submodule "bundle/tslime"]
 	path = bundle/tslime
-	url = git://github.com/kikijump/tslime.vim.git
+	url = git@github.com:moonboots/tslime.vim.git
