@@ -52,3 +52,6 @@
 [submodule "bundle/vim-repeat.git"]
 	path = bundle/vim-repeat.git
 	url = git://github.com/tpope/vim-repeat.git
+[submodule "bundle/gitv"]
+	path = bundle/gitv
+	url = git://github.com/gregsexton/gitv.git
