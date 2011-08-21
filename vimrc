@@ -15,7 +15,7 @@ call pathogen#runtime_append_all_bundles()
 "This must be first, because it changes other options as a side effect.
 set nocompatible
 
-set number      "add line numbers
+"set number      "add line numbers
 
 let mapleader=","
 
@@ -115,18 +115,18 @@ set nowrap
 
 let loaded_matchparen = 1
 
-so ~/.vim/private/databases
+"so ~/.vim/private/databases
 
-let g:dbext_default_ORA_cmd_header           = 
-                        \ "set pagesize 10000\n" .
-                        \ "set linesize 32767\n" .
-                        \ "set wrap off\n" .
-                        \ "set sqlprompt \"\"\n" .
-                        \ "set flush off\n" .
-                        \ "set colsep \"  \"\n" .
-                        \ "set tab off\n\n"
+"let g:dbext_default_ORA_cmd_header           = 
+                        "\ "set pagesize 10000\n" .
+                        "\ "set linesize 32767\n" .
+                        "\ "set wrap off\n" .
+                        "\ "set sqlprompt \"\"\n" .
+                        "\ "set flush off\n" .
+                        "\ "set colsep \"  \"\n" .
+                        "\ "set tab off\n\n"
 " dbext connections
-let g:dbext_default_profile_mysql = 'type=MYSQL:user=jack:passwd=:dbname=heritage_health:host=ubuntu-server'
+"let g:dbext_default_profile_mysql = 'type=MYSQL:user=jack:passwd=:dbname=heritage_health:host=ubuntu-server'
 
 " http://vimeo.com/6329762
 " dollar sign is change-word delimiter
