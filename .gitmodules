@@ -46,3 +46,9 @@
 [submodule "private"]
 	path = private
 	url = ./private
+[submodule "bundle/vim-commentary"]
+	path = bundle/vim-commentary
+	url = git://github.com/tpope/vim-commentary.git
+[submodule "bundle/vim-repeat.git"]
+	path = bundle/vim-repeat.git
+	url = git://github.com/tpope/vim-repeat.git
