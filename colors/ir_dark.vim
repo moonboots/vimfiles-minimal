@@ -25,7 +25,6 @@ endif
 
 let colors_name = "ir_dark"
 
-
 "hi Example         guifg=NONE        guibg=NONE        gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
 
 " General colors
@@ -63,7 +62,7 @@ if version >= 700 " Vim 7.x specific colors
   hi MatchParen     guifg=#f6f3e8     guibg=#857b6f     gui=BOLD      ctermfg=white       ctermbg=darkgray    cterm=NONE
   hi Pmenu          guifg=#f6f3e8     guibg=#444444     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
   hi PmenuSel       guifg=#000000     guibg=#cae682     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
-  hi Search         guifg=black       guibg=green       gui=NONE      ctermfg=NONE        ctermbg=NONE	      cterm=NONE
+  hi Search         guifg=#232323     guibg=#99dd22
 endif
 
 " Syntax highlighting
@@ -174,7 +173,6 @@ hi  link csXmlTag             Keyword
 
 
 " Special for PHP
-"
 
 hi DiffAdd    guibg=#232323  guifg=#99cc00
 hi DiffDelete guibg=#232323  guifg=#CC0000
