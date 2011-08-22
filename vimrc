@@ -126,5 +126,12 @@ let g:dbext_default_ORA_cmd_header           =
                         \ "set colsep \"  \"\n" .
                         \ "set tab off\n\n"
 
+" testing out vimdiff shortcuts
+"map <Up> [c
+"map <Down> ]c
+"map <Left> <C-w>h
+"map <Right> <C-w>l
+"map <Enter> diffput
+
 " http://vim.wikia.com/wiki/Easy_edit_of_files_in_the_same_directory
 cabbr <expr> %% expand('%:p:h')
