@@ -125,3 +125,6 @@ let g:dbext_default_ORA_cmd_header           =
                         \ "set flush off\n" .
                         \ "set colsep \"  \"\n" .
                         \ "set tab off\n\n"
+
+" http://vim.wikia.com/wiki/Easy_edit_of_files_in_the_same_directory
+cabbr <expr> %% expand('%:p:h')
