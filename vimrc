@@ -132,3 +132,9 @@ let loaded_matchparen = 1
 " dollar sign is change-word delimiter
 set cpoptions+=$
 set virtualedit+=all
+
+" Pressing 'jk' simultaneously escapes
+" http://mattsa.posterous.com/vim-arpeggio
+" Fucking genius
+" Could have been more aptly named vim-chord
+call arpeggio#map('i', '', 0, 'jk', '<Esc>')
