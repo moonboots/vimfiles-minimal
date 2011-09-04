@@ -174,7 +174,7 @@ hi  link csXmlTag             Keyword
 
 " Special for PHP
 
-hi DiffAdd    guifg=#66CC00 guibg=#232323
-hi DiffDelete guifg=#990000 guibg=#232323
-hi DiffChange guifg=#FF9900 guibg=#232323
-hi DiffText   guifg=#FFCC00 guibg=#232323
+hi DiffAdd    guibg=#232323  guifg=#99cc00
+hi DiffDelete guibg=#232323  guifg=#CC0000
+hi DiffChange guibg=#232323  guifg=#e0e0e0
+hi DiffText   guibg=#232323  guifg=#ffcc00

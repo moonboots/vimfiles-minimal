@@ -58,3 +58,6 @@
 [submodule "bundle/vim-arpeggio"]
 	path = bundle/vim-arpeggio
 	url = git://github.com/kana/vim-arpeggio.git
+[submodule "bundle/tslime"]
+	path = bundle/tslime
+	url = git@github.com:moonboots/tslime.vim.git
