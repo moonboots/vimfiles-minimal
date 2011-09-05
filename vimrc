@@ -144,6 +144,9 @@ let loaded_matchparen = 1
 set cpoptions+=$
 set virtualedit+=all
 
+" don't warn about unsaved buffer
+set hidden
+
 " Pressing 'jk' simultaneously escapes
 " http://mattsa.posterous.com/vim-arpeggio
 " Fucking genius
