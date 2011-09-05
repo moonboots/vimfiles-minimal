@@ -76,3 +76,6 @@
 [submodule "bundle/threesome"]
 	path = bundle/threesome
 	url = git://github.com/sjl/threesome.vim.git
+[submodule "bundle/scroll-colors"]
+	path = bundle/scroll-colors
+	url = git://github.com/vim-scripts/ScrollColors.git
