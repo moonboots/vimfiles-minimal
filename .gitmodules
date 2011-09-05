@@ -55,6 +55,24 @@
 [submodule "bundle/gitv"]
 	path = bundle/gitv
 	url = git://github.com/gregsexton/gitv.git
+[submodule "bundle/lusty"]
+	path = bundle/lusty
+	url = git://github.com/sjbach/lusty.git
+[submodule "bundle/rainbow"]
+	path = bundle/rainbow
+	url = git://github.com/HelgeG/rainbow.git
+[submodule "bundle/rainbow-parentheses-bundle"]
+	path = bundle/rainbow-parentheses-bundle
+	url = git://github.com/vim-scripts/Rainbow-Parenthsis-Bundle.git
+[submodule "bundle/tslime"]
+	path = bundle/tslime
+	url = git://github.com/moonboots/tslime.vim.git
+[submodule "bundle/color-sampler-pack"]
+	path = bundle/color-sampler-pack
+	url = git://github.com/vim-scripts/Color-Sampler-Pack.git
 [submodule "bundle/vim-arpeggio"]
 	path = bundle/vim-arpeggio
 	url = git://github.com/kana/vim-arpeggio.git
+[submodule "bundle/threesome"]
+	path = bundle/threesome
+	url = git://github.com/sjl/threesome.vim.git
