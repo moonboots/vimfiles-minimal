@@ -7,6 +7,15 @@ let g:pathogen_disabled = []
 "call add(g:pathogen_disabled, 'nerdtree')
 "call add(g:pathogen_disabled, 'Command-T')
 "call add(g:pathogen_disabled, 'dbext')
+call add(g:pathogen_disabled, 'vimroom')
+call add(g:pathogen_disabled, 'lusty')
+call add(g:pathogen_disabled, 'rainbow-parentheses-bundle')
+call add(g:pathogen_disabled, 'csapprox')
+call add(g:pathogen_disabled, 'fakeclip')
+call add(g:pathogen_disabled, 'javascript')
+call add(g:pathogen_disabled, 'speeddating')
+call add(g:pathogen_disabled, 'vimroom')
+call add(g:pathogen_disabled, 'xmledit')
 
 "load pathogen managed plugins
 call pathogen#runtime_append_all_bundles()
