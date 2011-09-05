@@ -178,3 +178,6 @@ hi DiffAdd    guifg=#66CC00 guibg=#232323
 hi DiffDelete guifg=#990000 guibg=#232323
 hi DiffChange guifg=#FF9900 guibg=#232323
 hi DiffText   guifg=#FFCC00 guibg=#232323
+
+hi CursorLine   cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
+hi CursorColumn cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
