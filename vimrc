@@ -99,8 +99,12 @@ nmap <Nul> <Esc>
 imap <c-s> <Esc>:w<CR>
 map <c-s> :w<CR>
 
-set t_Co=256
-colorscheme ir_dark
+"set t_Co=256
+"let g:solarized_termcolors=256
+"colorscheme solarized
+set background=dark
+colorscheme ir_dark.256
+"colorscheme mustang
 
 "turn on syntax highlighting
 syntax on
