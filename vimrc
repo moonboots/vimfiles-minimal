@@ -172,3 +172,5 @@ call arpeggio#map('i', '', 0, 'jk', '<Esc>')
 let g:ctrlp_working_path_mode = 0
 
 nmap ; :
+
+autocmd FileType java set autoindent | set si | set shiftwidth=4 | set cinoptions+=j1
