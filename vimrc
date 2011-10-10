@@ -178,3 +178,6 @@ let g:ctrlp_mruf_exclude = '.*\.class'
 "nmap ; :
 
 autocmd FileType java set autoindent | set si | set shiftwidth=4 | set cinoptions+=j1
+autocmd FileType scala set autoindent | set si | set shiftwidth=2 | set cinoptions+=j1
+
+au BufRead,BufNewFile *.less setfiletype less
