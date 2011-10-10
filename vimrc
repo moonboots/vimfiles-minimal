@@ -15,7 +15,8 @@ call add(g:pathogen_disabled, 'fakeclip')
 call add(g:pathogen_disabled, 'javascript')
 call add(g:pathogen_disabled, 'speeddating')
 call add(g:pathogen_disabled, 'vimroom')
-call add(g:pathogen_disabled, 'xmledit')
+"call add(g:pathogen_disabled, 'xmledit')
+call add(g:pathogen_disabled, 'yank-ring')
 
 "load pathogen managed plugins
 "call pathogen#runtime_append_all_bundles()
