@@ -175,6 +175,6 @@ let g:ctrlp_working_path_mode = 0
 "let g:ctrlp_mruf_exclude = '/tmp/.*\|/temp/.*' " MacOSX/Linux
 let g:ctrlp_mruf_exclude = '.*\.class'
 
-nmap ; :
+"nmap ; :
 
 autocmd FileType java set autoindent | set si | set shiftwidth=4 | set cinoptions+=j1
