@@ -170,8 +170,10 @@ set hidden
 call arpeggio#map('i', '', 0, 'jk', '<Esc>')
 
 "let g:tag_path = system('git rev-parse --show-toplevel') . '.git/tags'
-"let g:ctrlp_map = '<M-p>'
+let g:ctrlp_map = '<c-p>'
 let g:ctrlp_working_path_mode = 0
+"let g:ctrlp_mruf_exclude = '/tmp/.*\|/temp/.*' " MacOSX/Linux
+let g:ctrlp_mruf_exclude = '.*\.class'
 
 nmap ; :
 
