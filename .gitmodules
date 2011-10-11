@@ -3,7 +3,7 @@
 	url = git://github.com/scrooloose/nerdtree.git
 [submodule "bundle/xmledit"]
 	path = bundle/xmledit
-	url = git://github.com/sukima/xmledit.git
+	url = git://github.com/moonboots/xmledit.git
 [submodule "bundle/Command-T"]
 	path = bundle/Command-T
 	url = git://github.com/akitaonrails/Command-T.git
