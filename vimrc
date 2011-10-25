@@ -181,3 +181,5 @@ autocmd FileType java set autoindent | set si | set shiftwidth=4 | set cinoption
 autocmd FileType scala set autoindent | set si | set shiftwidth=2 | set cinoptions+=j1
 
 au BufRead,BufNewFile *.less setfiletype less
+
+nmap <F9> :set paste!<BAR>:set paste?<CR>
