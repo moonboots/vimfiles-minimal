@@ -183,3 +183,6 @@ autocmd FileType scala set autoindent | set si | set shiftwidth=2 | set cinoptio
 au BufRead,BufNewFile *.less setfiletype less
 
 nmap <F9> :set paste!<BAR>:set paste?<CR>
+
+map <F6> :w <BAR> :silent execute "!tmux send-key -t resume:3.1 'xelatex -halt-on-error resume.tex' C-m" <BAR> redraw! <CR>
+call arpeggio#map('nv', '', 0, 'jl', ':w <BAR> :silent execute "!tmux send-key -t resume:3.1 \"xelatex -halt-on-error resume.tex\" C-m" <BAR> redraw! <CR>')
