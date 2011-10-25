@@ -3,21 +3,36 @@
 "necessary on some Linux distros for pathogen to properly load bundles
 filetype off
 
-let g:pathogen_disabled = []
-"call add(g:pathogen_disabled, 'nerdtree')
-"call add(g:pathogen_disabled, 'Command-T')
-"call add(g:pathogen_disabled, 'dbext')
-call add(g:pathogen_disabled, 'vimroom')
-call add(g:pathogen_disabled, 'lusty')
-call add(g:pathogen_disabled, 'rainbow-parentheses-bundle')
-call add(g:pathogen_disabled, 'csapprox')
-"call add(g:pathogen_disabled, 'fakeclip')
-call add(g:pathogen_disabled, 'javascript')
-call add(g:pathogen_disabled, 'speeddating')
-call add(g:pathogen_disabled, 'vimroom')
-"call add(g:pathogen_disabled, 'xmledit')
-call add(g:pathogen_disabled, 'yank-ring')
-call add(g:pathogen_disabled, 'vim-easymotion')
+let g:pathogen_disabled = 
+\ [
+\ "dbext"
+\ ,"nerdcommenter"
+\ ,"argtextobj"
+\ ,"eclim"
+\ ,"patchreview"
+\ ,"vim-easymotion"
+\ ,"rainbow-parentheses"
+\ ,"taglist"
+\ ,"closetag"
+\ ,"gitv"
+\ ,"scala"
+\ ,"threesome"
+\ ,"color-sampler-pack"
+\ ,"gundo"
+\ ,"scroll-colors"
+\ ,"tslime"
+\ ,"yank-ring"
+\ ,"Command-T"
+\ ,"javascript"
+\ ,"csapprox"
+\ ,"lusty"
+\ ,"sparkup"
+\ ,"vim-autoclose"
+\ ,"ctrlp"
+\ ,"matchit"
+\ ,"speeddating"
+\ ,"vimclojure"
+\ ]
 
 "load pathogen managed plugins
 "call pathogen#runtime_append_all_bundles()
