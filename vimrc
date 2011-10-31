@@ -172,8 +172,8 @@ cabbr <expr> %% expand('%:p:h')
 
 " http://vimeo.com/6329762
 " dollar sign is change-word delimiter
-set cpoptions+=$
-set virtualedit+=all
+"set cpoptions+=$
+"set virtualedit+=all
 
 " don't warn about unsaved buffer
 set hidden
