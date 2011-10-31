@@ -74,9 +74,9 @@ nnoremap <leader>b :BufExplorer<cr>
 
 set bg=dark
 
-"set wildmode=list:longest   "make cmdline tab completion similar to bash
-"set wildmenu                "enable ctrl-n and ctrl-p to scroll thru matches
-"set wildignore=*.o,*.obj,*~,*.class,.git "stuff to ignore when tab completing
+set wildmode=list:longest   "make cmdline tab completion similar to bash
+set wildmenu                "enable ctrl-n and ctrl-p to scroll thru matches
+set wildignore=*.o,*.obj,*~,*.class,.git "stuff to ignore when tab completing
 
 "mark syntax errors with :signs
 let g:syntastic_enable_signs=1
