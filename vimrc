@@ -29,7 +29,6 @@ let g:pathogen_disabled =
 \ ,"sparkup"
 \ ,"vim-autoclose"
 \ ,"ctrlp"
-\ ,"matchit"
 \ ,"speeddating"
 \ ,"vimclojure"
 \ ]
