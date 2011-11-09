@@ -225,3 +225,6 @@ set rnu
 hi CursorLine ctermbg=221 cterm=none
 au InsertEnter * set cursorline
 au InsertLeave * set nocursorline
+
+set ignorecase
+set smartcase
