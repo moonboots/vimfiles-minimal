@@ -15,7 +15,6 @@ let g:pathogen_disabled =
 \ ,"taglist"
 \ ,"closetag"
 \ ,"gitv"
-\ ,"scala"
 \ ,"threesome"
 \ ,"color-sampler-pack"
 \ ,"gundo"
