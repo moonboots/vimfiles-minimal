@@ -81,7 +81,7 @@ let g:syntastic_enable_signs=1
 
 " Deprecated, shift+r already does this
 " Search and replace highlighted text
-vnoremap <C-r> "hy:%s/\<<C-r>h\>//gc<left><left><left>
+"vnoremap <C-r> "hy:%s/\<<C-r>h\>//gc<left><left><left>
 
 "Command-T configuration
 let g:CommandTMaxHeight=10
