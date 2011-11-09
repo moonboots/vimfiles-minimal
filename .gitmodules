@@ -112,3 +112,6 @@
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
 	url = git://github.com/scrooloose/syntastic.git
+[submodule "bundle/vim-gnupg"]
+	path = bundle/vim-gnupg
+	url = https://git.gitorious.org/vim-gnupg/vim-gnupg.git
