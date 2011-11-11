@@ -70,8 +70,6 @@ nnoremap <leader>b :BufExplorer<cr>
 "map to CommandT TextMate style finder
 "nnoremap <leader>t :CommandT<CR
 
-set bg=dark
-
 set wildmode=list:longest   "make cmdline tab completion similar to bash
 set wildmenu                "enable ctrl-n and ctrl-p to scroll thru matches
 set wildignore=*.o,*.obj,*~,*.class,.git "stuff to ignore when tab completing
@@ -114,12 +112,14 @@ nmap <Nul> <Esc>
 imap <c-s> <Esc>:w<CR>
 map <c-s> :w<CR>
 
-set background=light
+"set background=light
 set t_Co=256
-let g:solarized_termcolors=256
-colorscheme solarized
-"set background=dark
-"colorscheme ir_dark.256
+set bg=dark
+
+set background=dark
+"let g:solarized_termcolors=256
+"colorscheme solarized
+colorscheme ir_dark.256
 "colorscheme mustang
 
 "turn on syntax highlighting
@@ -222,7 +222,11 @@ let g:rbpt_colorpairs = [
 
 set rnu
 
-hi CursorLine ctermbg=221 cterm=none
+" Light
+"hi CursorLine ctermbg=221 cterm=none
+
+hi CursorLine term=NONE cterm=NONE ctermbg=237
+
 au InsertEnter * set cursorline
 au InsertLeave * set nocursorline
 

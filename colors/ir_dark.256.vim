@@ -78,7 +78,7 @@ elseif has("gui_running") || (&t_Co == 256 && (&term ==# "xterm" || &term =~# "^
     CSAHi TabLineSel term=bold cterm=bold ctermbg=bg ctermfg=fg gui=bold guibg=bg guifg=fg
     CSAHi TabLineFill term=reverse cterm=reverse ctermbg=bg ctermfg=fg gui=reverse guibg=bg guifg=fg
     CSAHi CursorColumn term=reverse cterm=NONE ctermbg=124 ctermfg=231 gui=NONE guibg=darkred guifg=white
-    CSAHi CursorLine term=underline cterm=NONE ctermbg=124 ctermfg=231 gui=NONE guibg=darkred guifg=white
+    "CSAHi CursorLine term=underline cterm=NONE ctermbg=124 ctermfg=231 gui=NONE guibg=darkred guifg=white
     CSAHi vimCommentTitleLeader term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
     CSAHi LongLineWarning term=NONE cterm=underline ctermbg=59 ctermfg=fg gui=underline guibg=#371F1C guifg=fg
     CSAHi vimGlobal term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
@@ -216,7 +216,7 @@ elseif has("gui_running") || (&t_Co == 256 && (&term ==# "xterm" || &term =~# "^
     CSAHi TabLineSel term=bold cterm=bold ctermbg=bg ctermfg=fg gui=bold guibg=bg guifg=fg
     CSAHi TabLineFill term=reverse cterm=reverse ctermbg=bg ctermfg=fg gui=reverse guibg=bg guifg=fg
     CSAHi CursorColumn term=reverse cterm=NONE ctermbg=124 ctermfg=255 gui=NONE guibg=darkred guifg=white
-    CSAHi CursorLine term=underline cterm=NONE ctermbg=124 ctermfg=255 gui=NONE guibg=darkred guifg=white
+    "CSAHi CursorLine term=underline cterm=NONE ctermbg=124 ctermfg=255 gui=NONE guibg=darkred guifg=white
     CSAHi vimCommentTitleLeader term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
     CSAHi LongLineWarning term=NONE cterm=underline ctermbg=59 ctermfg=fg gui=underline guibg=#371F1C guifg=fg
     CSAHi vimGlobal term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
@@ -354,7 +354,7 @@ elseif has("gui_running") || &t_Co == 256
     CSAHi TabLineSel term=bold cterm=bold ctermbg=bg ctermfg=fg gui=bold guibg=bg guifg=fg
     CSAHi TabLineFill term=reverse cterm=reverse ctermbg=bg ctermfg=fg gui=reverse guibg=bg guifg=fg
     CSAHi CursorColumn term=reverse cterm=NONE ctermbg=88 ctermfg=231 gui=NONE guibg=darkred guifg=white
-    CSAHi CursorLine term=underline cterm=NONE ctermbg=88 ctermfg=231 gui=NONE guibg=darkred guifg=white
+    "CSAHi CursorLine term=underline cterm=NONE ctermbg=88 ctermfg=231 gui=NONE guibg=darkred guifg=white
     CSAHi vimCommentTitleLeader term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
     CSAHi LongLineWarning term=NONE cterm=underline ctermbg=52 ctermfg=fg gui=underline guibg=#371F1C guifg=fg
     CSAHi vimGlobal term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
@@ -492,7 +492,7 @@ elseif has("gui_running") || &t_Co == 88
     CSAHi TabLineSel term=bold cterm=bold ctermbg=bg ctermfg=fg gui=bold guibg=bg guifg=fg
     CSAHi TabLineFill term=reverse cterm=reverse ctermbg=bg ctermfg=fg gui=reverse guibg=bg guifg=fg
     CSAHi CursorColumn term=reverse cterm=NONE ctermbg=32 ctermfg=79 gui=NONE guibg=darkred guifg=white
-    CSAHi CursorLine term=underline cterm=NONE ctermbg=32 ctermfg=79 gui=NONE guibg=darkred guifg=white
+    "CSAHi CursorLine term=underline cterm=NONE ctermbg=32 ctermfg=79 gui=NONE guibg=darkred guifg=white
     CSAHi vimCommentTitleLeader term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
     CSAHi LongLineWarning term=NONE cterm=underline ctermbg=80 ctermfg=fg gui=underline guibg=#371F1C guifg=fg
     CSAHi vimGlobal term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
