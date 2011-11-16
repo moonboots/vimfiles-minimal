@@ -20,7 +20,6 @@ let g:pathogen_disabled =
 \ ,"gundo"
 \ ,"scroll-colors"
 \ ,"tslime"
-\ ,"yank-ring"
 \ ,"Command-T"
 \ ,"javascript"
 \ ,"csapprox"
@@ -184,7 +183,10 @@ set hidden
 call arpeggio#map('i', '', 0, 'jk', '<Esc>')
 
 "let g:tag_path = system('git rev-parse --show-toplevel') . '.git/tags'
-let g:ctrlp_map = '<c-p>'
+"let g:ctrlp_map = '<alt-p>'
+
+" Default conflicts with yank ring
+map <silent> <leader>t :CtrlP<CR>
 let g:ctrlp_working_path_mode = 0
 "let g:ctrlp_mruf_exclude = '/tmp/.*\|/temp/.*' " MacOSX/Linux
 "let g:ctrlp_mruf_exclude = '.*\.class'
@@ -236,5 +238,8 @@ set smartcase
 map <leader>v :tabedit $MYVIMRC<CR>
 map <leader>s :source $MYVIMRC<CR>
 
-"let project_dir = ''
+" Lock working directory in this project so ctrlp always searches correct
+" scope
 autocmd BufNewFile,BufRead /home/jack/code/js/flashcards-complete/* cd /home/jack/code/js/flashcards-complete
+
+nnoremap <silent> <leader>yr :YRShow<CR> 
