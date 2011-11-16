@@ -225,7 +225,7 @@ set rnu
 " Light
 "hi CursorLine ctermbg=221 cterm=none
 
-hi CursorLine term=NONE cterm=NONE ctermbg=237
+hi CursorLine term=NONE cterm=NONE ctermbg=88
 
 au InsertEnter * set cursorline
 au InsertLeave * set nocursorline
