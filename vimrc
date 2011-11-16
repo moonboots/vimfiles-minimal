@@ -27,7 +27,6 @@ let g:pathogen_disabled =
 \ ,"lusty"
 \ ,"sparkup"
 \ ,"vim-autoclose"
-\ ,"ctrlp"
 \ ,"speeddating"
 \ ,"vimclojure"
 \ ]
@@ -72,7 +71,8 @@ nnoremap <leader>b :BufExplorer<cr>
 
 set wildmode=list:longest   "make cmdline tab completion similar to bash
 set wildmenu                "enable ctrl-n and ctrl-p to scroll thru matches
-set wildignore=*.o,*.obj,*~,*.class,.git "stuff to ignore when tab completing
+set wildignore=*.o,*.obj,*~,*.class,.git,*.swp,*.log "stuff to ignore when tab completing
+"set wildignore+=*/.git/*,*/.hg/*,*/.svn/*   " for Linux/MacOSX
 
 "mark syntax errors with :signs
 let g:syntastic_enable_signs=1
@@ -187,7 +187,7 @@ call arpeggio#map('i', '', 0, 'jk', '<Esc>')
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_working_path_mode = 0
 "let g:ctrlp_mruf_exclude = '/tmp/.*\|/temp/.*' " MacOSX/Linux
-let g:ctrlp_mruf_exclude = '.*\.class'
+"let g:ctrlp_mruf_exclude = '.*\.class'
 
 "nmap ; :
 
