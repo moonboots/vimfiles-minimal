@@ -144,7 +144,7 @@ nmap du :wincmd w<cr>:normal u<cr>:wincmd w<cr>
 
 set nowrap
 
-let loaded_matchparen = 1
+"let loaded_matchparen = 1
 
 "so ~/.vim/private/databases
 
