@@ -232,3 +232,6 @@ au InsertLeave * set nocursorline
 
 set ignorecase
 set smartcase
+
+map <leader>v :tabedit $MYVIMRC<CR>
+map <leader>s :source $MYVIMRC<CR>
