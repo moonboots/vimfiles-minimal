@@ -235,3 +235,6 @@ set smartcase
 
 map <leader>v :tabedit $MYVIMRC<CR>
 map <leader>s :source $MYVIMRC<CR>
+
+"let project_dir = ''
+autocmd BufNewFile,BufRead /home/jack/code/js/flashcards-complete/* cd /home/jack/code/js/flashcards-complete
