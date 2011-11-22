@@ -3,37 +3,7 @@
 "necessary on some Linux distros for pathogen to properly load bundles
 filetype off
 
-let g:pathogen_disabled = 
-\ [
-\ "dbext"
-\ ,"nerdcommenter"
-\ ,"argtextobj"
-\ ,"eclim"
-\ ,"patchreview"
-\ ,"vim-easymotion"
-\ ,"rainbow-parentheses"
-\ ,"taglist"
-\ ,"closetag"
-\ ,"gitv"
-\ ,"threesome"
-\ ,"color-sampler-pack"
-\ ,"gundo"
-\ ,"scroll-colors"
-\ ,"tslime"
-\ ,"Command-T"
-\ ,"javascript"
-\ ,"csapprox"
-\ ,"lusty"
-\ ,"sparkup"
-\ ,"vim-autoclose"
-\ ,"speeddating"
-\ ,"vimclojure"
-\ ]
-
-"load pathogen managed plugins
-"call pathogen#runtime_append_all_bundles()
-call pathogen#infect()
-call pathogen#helptags()
+runtime available-bundles/vim-unbundle/unbundle.vim
 
 "Use Vim settings, rather then Vi settings (much better!).
 "This must be first, because it changes other options as a side effect.
