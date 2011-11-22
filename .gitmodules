@@ -1,123 +1,126 @@
-[submodule "bundle/nerdtree"]
-	path = bundle/nerdtree
+[submodule "available-bundles/nerdtree"]
+	path = available-bundles/nerdtree
 	url = git://github.com/scrooloose/nerdtree.git
-[submodule "bundle/xmledit"]
-	path = bundle/xmledit
+[submodule "available-bundles/xmledit"]
+	path = available-bundles/xmledit
 	url = git://github.com/moonboots/xmledit.git
-[submodule "bundle/Command-T"]
-	path = bundle/Command-T
+[submodule "available-bundles/Command-T"]
+	path = available-bundles/Command-T
 	url = git://github.com/akitaonrails/Command-T.git
-[submodule "bundle/fugitive"]
-	path = bundle/fugitive
+[submodule "available-bundles/fugitive"]
+	path = available-bundles/fugitive
 	url = git://github.com/tpope/vim-fugitive.git
-[submodule "bundle/surround"]
-	path = bundle/surround
+[submodule "available-bundles/surround"]
+	path = available-bundles/surround
 	url = git://github.com/tpope/vim-surround.git
-[submodule "bundle/javascript"]
-	path = bundle/javascript
+[submodule "available-bundles/javascript"]
+	path = available-bundles/javascript
 	url = git://github.com/pangloss/vim-javascript.git
-[submodule "bundle/vim-autoclose"]
-	path = bundle/vim-autoclose
+[submodule "available-bundles/vim-autoclose"]
+	path = available-bundles/vim-autoclose
 	url = git://github.com/Townk/vim-autoclose.git
-[submodule "bundle/csapprox"]
-	path = bundle/csapprox
+[submodule "available-bundles/csapprox"]
+	path = available-bundles/csapprox
 	url = git://github.com/godlygeek/csapprox.git
-[submodule "bundle/gundo"]
-	path = bundle/gundo
+[submodule "available-bundles/gundo"]
+	path = available-bundles/gundo
 	url = git://github.com/sjl/gundo.vim.git
-[submodule "bundle/tabular"]
-	path = bundle/tabular
+[submodule "available-bundles/tabular"]
+	path = available-bundles/tabular
 	url = git://github.com/godlygeek/tabular.git
-[submodule "bundle/speeddating"]
-	path = bundle/speeddating
+[submodule "available-bundles/speeddating"]
+	path = available-bundles/speeddating
 	url = git://github.com/tpope/vim-speeddating.git
 [submodule "pathogen"]
 	path = pathogen
 	url = git://github.com/tpope/vim-pathogen.git
-[submodule "bundle/fakeclip"]
-	path = bundle/fakeclip
+[submodule "available-bundles/fakeclip"]
+	path = available-bundles/fakeclip
 	url = git://github.com/kana/vim-fakeclip.git
-[submodule "bundle/vim-colors-solarized"]
-	path = bundle/vim-colors-solarized
+[submodule "available-bundles/vim-colors-solarized"]
+	path = available-bundles/vim-colors-solarized
 	url = git://github.com/altercation/vim-colors-solarized.git
-[submodule "bundle/patchreview"]
-	path = bundle/patchreview
+[submodule "available-bundles/patchreview"]
+	path = available-bundles/patchreview
 	url = git://github.com/junkblocker/patchreview-vim.git
 [submodule "private"]
 	path = private
 	url = ./private
-[submodule "bundle/vim-commentary"]
-	path = bundle/vim-commentary
+[submodule "available-bundles/vim-commentary"]
+	path = available-bundles/vim-commentary
 	url = git://github.com/tpope/vim-commentary.git
-[submodule "bundle/vim-repeat.git"]
-	path = bundle/vim-repeat.git
+[submodule "available-bundles/vim-repeat.git"]
+	path = available-bundles/vim-repeat.git
 	url = git://github.com/tpope/vim-repeat.git
-[submodule "bundle/gitv"]
-	path = bundle/gitv
+[submodule "available-bundles/gitv"]
+	path = available-bundles/gitv
 	url = git://github.com/gregsexton/gitv.git
-[submodule "bundle/rainbow"]
-	path = bundle/rainbow
+[submodule "available-bundles/rainbow"]
+	path = available-bundles/rainbow
 	url = git://github.com/HelgeG/rainbow.git
-[submodule "bundle/vim-arpeggio"]
-	path = bundle/vim-arpeggio
+[submodule "available-bundles/vim-arpeggio"]
+	path = available-bundles/vim-arpeggio
 	url = git://github.com/kana/vim-arpeggio.git
-[submodule "bundle/threesome"]
-	path = bundle/threesome
+[submodule "available-bundles/threesome"]
+	path = available-bundles/threesome
 	url = git://github.com/sjl/threesome.vim.git
-[submodule "bundle/scroll-colors"]
-	path = bundle/scroll-colors
+[submodule "available-bundles/scroll-colors"]
+	path = available-bundles/scroll-colors
 	url = git://github.com/vim-scripts/ScrollColors.git
-[submodule "bundle/color-sampler-pack"]
-	path = bundle/color-sampler-pack
+[submodule "available-bundles/color-sampler-pack"]
+	path = available-bundles/color-sampler-pack
 	url = git://github.com/vim-scripts/Color-Sampler-Pack.git
-[submodule "bundle/lusty"]
-	path = bundle/lusty
+[submodule "available-bundles/lusty"]
+	path = available-bundles/lusty
 	url = git://github.com/sjbach/lusty.git
-[submodule "bundle/rainbow-parentheses"]
-	path = bundle/rainbow-parentheses
+[submodule "available-bundles/rainbow-parentheses"]
+	path = available-bundles/rainbow-parentheses
 	url = git://github.com/vim-scripts/Rainbow-Parenthsis-Bundle.git
-[submodule "bundle/tslime"]
-	path = bundle/tslime
+[submodule "available-bundles/tslime"]
+	path = available-bundles/tslime
 	url = git://github.com/moonboots/tslime.vim.git
-[submodule "bundle/abolish"]
-	path = bundle/abolish
+[submodule "available-bundles/abolish"]
+	path = available-bundles/abolish
 	url = git://github.com/tpope/vim-abolish.git
-[submodule "bundle/vim-easymotion"]
-	path = bundle/vim-easymotion
+[submodule "available-bundles/vim-easymotion"]
+	path = available-bundles/vim-easymotion
 	url = git://github.com/Lokaltog/vim-easymotion.git
-[submodule "bundle/ctrlp"]
-	path = bundle/ctrlp
+[submodule "available-bundles/ctrlp"]
+	path = available-bundles/ctrlp
 	url = git://github.com/kien/ctrlp.vim.git
-[submodule "bundle/snipmate"]
-	path = bundle/snipmate
+[submodule "available-bundles/snipmate"]
+	path = available-bundles/snipmate
 	url = git@github.com:moonboots/snipmate.vim.git
-[submodule "bundle/yank-ring"]
-	path = bundle/yank-ring
+[submodule "available-bundles/yank-ring"]
+	path = available-bundles/yank-ring
 	url = git://github.com/vim-scripts/YankRing.vim.git
-[submodule "bundle/closetag"]
-	path = bundle/closetag
+[submodule "available-bundles/closetag"]
+	path = available-bundles/closetag
 	url = git://github.com/vim-scripts/closetag.vim.git
-[submodule "bundle/sparkup"]
-	path = bundle/sparkup
+[submodule "available-bundles/sparkup"]
+	path = available-bundles/sparkup
 	url = git://github.com/rstacruz/sparkup.git
-[submodule "bundle/CamelCaseMotion"]
-	path = bundle/CamelCaseMotion
+[submodule "available-bundles/CamelCaseMotion"]
+	path = available-bundles/CamelCaseMotion
 	url = git://github.com/bkad/CamelCaseMotion.git
-[submodule "bundle/argtextobj"]
-	path = bundle/argtextobj
+[submodule "available-bundles/argtextobj"]
+	path = available-bundles/argtextobj
 	url = git://github.com/vim-scripts/argtextobj.vim.git
-[submodule "bundle/rainbow-parentheses2"]
-	path = bundle/rainbow-parentheses2
+[submodule "available-bundles/rainbow-parentheses2"]
+	path = available-bundles/rainbow-parentheses2
 	url = https://github.com/kien/rainbow_parentheses.vim.git
-[submodule "bundle/syntastic"]
-	path = bundle/syntastic
+[submodule "available-bundles/syntastic"]
+	path = available-bundles/syntastic
 	url = git://github.com/scrooloose/syntastic.git
-[submodule "bundle/vim-gnupg"]
-	path = bundle/vim-gnupg
+[submodule "available-bundles/vim-gnupg"]
+	path = available-bundles/vim-gnupg
 	url = https://git.gitorious.org/vim-gnupg/vim-gnupg.git
-[submodule "bundle/ack"]
-	path = bundle/ack
+[submodule "available-bundles/ack"]
+	path = available-bundles/ack
 	url = https://github.com/mileszs/ack.vim.git
-[submodule "bundle/mustache"]
-	path = bundle/mustache
+[submodule "available-bundles/mustache"]
+	path = available-bundles/mustache
 	url = https://github.com/juvenn/mustache.vim.git
+[submodule "available-bundles/vim-unbundle"]
+	path = available-bundles/vim-unbundle
+	url = https://github.com/sunaku/vim-unbundle.git
