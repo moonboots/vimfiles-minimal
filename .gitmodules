@@ -124,6 +124,3 @@
 [submodule "available-bundles/vim-unbundle"]
 	path = available-bundles/vim-unbundle
 	url = https://github.com/sunaku/vim-unbundle.git
-[submodule "available-bundles/indent-guides"]
-	path = available-bundles/indent-guides
-	url = https://github.com/nathanaelkane/vim-indent-guides.git
