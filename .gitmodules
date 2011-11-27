@@ -127,3 +127,6 @@
 [submodule "available-bundles/indent-guides"]
 	path = available-bundles/indent-guides
 	url = https://github.com/nathanaelkane/vim-indent-guides.git
+[submodule "available-bundles/matchtag"]
+	path = available-bundles/matchtag
+	url = https://github.com/gregsexton/MatchTag.git
