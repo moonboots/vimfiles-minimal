@@ -130,3 +130,6 @@
 [submodule "available-bundles/matchtag"]
 	path = available-bundles/matchtag
 	url = https://github.com/gregsexton/MatchTag.git
+[submodule "available-bundles/ultisnips"]
+	path = available-bundles/ultisnips
+	url = https://github.com/vim-scripts/UltiSnips.git
