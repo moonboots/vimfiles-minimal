@@ -11,7 +11,8 @@ set nocompatible
 
 "set number      "add line numbers
 
-let mapleader=","
+"let mapleader=","
+let mapleader=" "
 
 "disable visual bell
 set visualbell t_vb=
