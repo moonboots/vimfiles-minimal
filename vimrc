@@ -214,3 +214,6 @@ map <leader>s :source $MYVIMRC<CR>
 autocmd BufNewFile,BufRead /home/jack/code/js/flashcards-complete/* cd /home/jack/code/js/flashcards-complete
 
 nnoremap <silent> <leader>yr :YRShow<CR> 
+
+" Show letter prefix for lusty juggler
+let g:LustyJugglerShowKeys = 'a'
