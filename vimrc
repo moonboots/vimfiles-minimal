@@ -26,7 +26,7 @@ set autoindent
 au BufNewFile,BufRead *.java set shiftwidth=4 | set softtabstop=4
 
 "load ftplugins and indent files
-silent! nmap <silent> <Leader>p :NERDTreeToggle<CR>
+silent! nnoremap <silent> <Leader>p :NERDTreeToggle<CR>
 "nnoremap <silent> <C-f> :call FindInNERDTree()<CR> 
 
 "make <c-l> clear the highlight as well as redraw
@@ -61,22 +61,22 @@ set hlsearch
 :nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 
 " Control+Space to escape
-map <C-Space> <Esc>
-nmap <C-Space> <Esc>
-vmap <C-Space> <Esc>
-imap <C-Space> <Esc>
-omap <C-Space> <Esc>
-cmap <C-Space> <Esc>
+noremap <C-Space> <Esc>
+nnoremap <C-Space> <Esc>
+vnoremap <C-Space> <Esc>
+inoremap <C-Space> <Esc>
+onoremap <C-Space> <Esc>
+cnoremap <C-Space> <Esc>
 
 " Ctrl-space does different things on different platforms, so we need to kill
 " this behavior. See
 " http://vim.1045645.n5.nabble.com/problem-mapping-Ctrl-Space-td1155234.html
 " http://www.shallowsky.com/blog/linux/editors/vim-ctrl-space.html
-imap <Nul> <Esc>
-map <Nul> <Esc>
-vmap <Nul> <Esc>
-cmap <Nul> <Esc>
-nmap <Nul> <Esc>
+noremap <Nul> <Esc>
+inoremap <Nul> <Esc>
+vnoremap <Nul> <Esc>
+cnoremap <Nul> <Esc>
+nnoremap <Nul> <Esc>
 
 " old habit
 imap <c-s> <Esc>:w<CR>
@@ -110,7 +110,7 @@ autocmd FileType java set tabstop=4 shiftwidth=4 softtabstop=0 smarttab noexpand
 au BufRead,BufNewFile *.sf set filetype=java
 
 " in vimdiff, press du to undo
-nmap du :wincmd w<cr>:normal u<cr>:wincmd w<cr>
+nnoremap du :wincmd w<cr>:normal u<cr>:wincmd w<cr>
 
 set nowrap
 
@@ -157,7 +157,7 @@ call arpeggio#map('i', '', 0, 'jk', '<Esc>')
 "let g:ctrlp_map = '<alt-p>'
 
 " Default conflicts with yank ring
-map <silent> <leader>t :CtrlP<CR>
+noremap <silent> <leader>t :CtrlP<CR>
 let g:ctrlp_working_path_mode = 0
 "let g:ctrlp_mruf_exclude = '/tmp/.*\|/temp/.*' " MacOSX/Linux
 "let g:ctrlp_mruf_exclude = '.*\.class'
@@ -169,10 +169,10 @@ autocmd FileType scala set autoindent | set si | set shiftwidth=2 | set cinoptio
 
 au BufRead,BufNewFile *.less setfiletype less
 
-nmap <F9> :set paste!<BAR>:set paste?<CR>
+nnoremap <F9> :set paste!<BAR>:set paste?<CR>
 
-map <F6> :w <BAR> :silent execute "!tmux send-key -t resume:3.1 'xelatex -halt-on-error resume.tex' C-m" <BAR> redraw! <CR>
-call arpeggio#map('nv', '', 0, 'jl', ':w <BAR> :silent execute "!tmux send-key -t resume:3.1 \"xelatex -halt-on-error resume.tex\" C-m" <BAR> redraw! <CR>')
+"noremap <F6> :w <BAR> :silent execute "!tmux send-key -t resume:3.1 'xelatex -halt-on-error resume.tex' C-m" <BAR> redraw! <CR>
+"call arpeggio#map('nv', '', 0, 'jl', ':w <BAR> :silent execute "!tmux send-key -t resume:3.1 \"xelatex -halt-on-error resume.tex\" C-m" <BAR> redraw! <CR>')
 
 let g:rbpt_colorpairs = [
     \ ['brown',       'RoyalBlue3'],
