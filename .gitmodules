@@ -133,3 +133,6 @@
 [submodule "available-bundles/ultisnips"]
 	path = available-bundles/ultisnips
 	url = https://github.com/vim-scripts/UltiSnips.git
+[submodule "available-bundles/vimclojure"]
+	path = available-bundles/vimclojure
+	url = https://github.com/vim-scripts/VimClojure.git
