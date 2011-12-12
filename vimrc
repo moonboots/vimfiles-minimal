@@ -176,8 +176,9 @@ au InsertLeave * set nocursorline
 set ignorecase
 set smartcase
 
-map <leader>v :tabedit $MYVIMRC<CR>
-map <leader>s :source $MYVIMRC<CR>
+"noremap <leader>v :tabedit $MYVIMRC<CR>
+nnoremap <leader>s :source $MYVIMRC<CR>
+nnoremap <leader>ev :vsplit $MYVIMRC<cr>
 
 " Lock working directory in this project so ctrlp always searches correct
 " scope
