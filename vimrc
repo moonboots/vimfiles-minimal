@@ -78,10 +78,6 @@ vnoremap <Nul> <Esc>
 cnoremap <Nul> <Esc>
 nnoremap <Nul> <Esc>
 
-" old habit
-imap <c-s> <Esc>:w<CR>
-map <c-s> :w<CR>
-
 "set background=light
 set t_Co=256
 set bg=dark
@@ -126,43 +122,20 @@ let g:dbext_default_ORA_cmd_header           =
                         \ "set flush off\n" .
                         \ "set colsep \"  \"\n" .
                         \ "set tab off\n\n"
-" testing out vimdiff shortcuts
-"map <Up> [c
-"map <Down> ]c
-"map <Left> <C-w>h
-"map <Right> <C-w>l
-"map <Enter> diffput
 
 " http://vim.wikia.com/wiki/Easy_edit_of_files_in_the_same_directory
 cabbr <expr> %% expand('%:p:h')
-
-" dbext connections
-"let g:dbext_default_profile_mysql = 'type=MYSQL:user=jack:passwd=:dbname=heritage_health:host=ubuntu-server'
-
-" http://vimeo.com/6329762
-" dollar sign is change-word delimiter
-"set cpoptions+=$
-"set virtualedit+=all
 
 " don't warn about unsaved buffer
 set hidden
 
 " Pressing 'jk' simultaneously escapes
 " http://mattsa.posterous.com/vim-arpeggio
-" Fucking genius
-" Could have been more aptly named vim-chord
 call arpeggio#map('i', '', 0, 'jk', '<Esc>')
-
-"let g:tag_path = system('git rev-parse --show-toplevel') . '.git/tags'
-"let g:ctrlp_map = '<alt-p>'
 
 " Default conflicts with yank ring
 noremap <silent> <leader>t :CtrlP<CR>
 let g:ctrlp_working_path_mode = 0
-"let g:ctrlp_mruf_exclude = '/tmp/.*\|/temp/.*' " MacOSX/Linux
-"let g:ctrlp_mruf_exclude = '.*\.class'
-
-"nmap ; :
 
 autocmd FileType java set autoindent | set si | set shiftwidth=4 | set cinoptions+=j1
 autocmd FileType scala set autoindent | set si | set shiftwidth=2 | set cinoptions+=j1
@@ -194,9 +167,6 @@ let g:rbpt_colorpairs = [
     \ ]
 
 set rnu
-
-" Light
-"hi CursorLine ctermbg=221 cterm=none
 
 hi CursorLine term=NONE cterm=NONE ctermbg=88
 
