@@ -186,6 +186,15 @@ autocmd BufNewFile,BufRead /home/jack/code/js/flashcards-complete/* cd /home/jac
 
 nnoremap <silent> <leader>yr :YRShow<CR> 
 
+" ultisnips
+let g:UltiSnipsSnippetsDir="~/.vim/available-bundles/ultisnips/UltiSnips"
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<tab>"
+let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
+
+" Leaving this on causes "no such mapping" exceptions
+let g:UltiSnipsRemoveSelectModeMappings = 0
+
 " Show letter prefix for lusty juggler
 let g:LustyJugglerShowKeys = 'a'
 
