@@ -105,7 +105,7 @@ let vimclojure#DynamicHighlighting=1
 let vimclojure#ParenRainbow=1
 
 " hacks for specific file types, TODO organize into bundles
-autocmd FileType clojure,lisp :AutoCloseOff
+"autocmd FileType clojure,lisp :AutoCloseOff
 autocmd FileType java set tabstop=4 shiftwidth=4 softtabstop=0 smarttab noexpandtab
 au BufRead,BufNewFile *.sf set filetype=java
 
@@ -217,3 +217,10 @@ nnoremap <silent> <leader>yr :YRShow<CR>
 
 " Show letter prefix for lusty juggler
 let g:LustyJugglerShowKeys = 'a'
+
+let vimclojure#NailgunClient = '/home/jack/code3/vimclojure/client/ng'
+let vimclojure#WantNailgun = 1
+let vimclojure#HighlightBuiltins=1
+let vimclojure#HighlightContrib=1
+let vimclojure#DynamicHighlighting=1
+let vimclojure#ParenRainbow=1
