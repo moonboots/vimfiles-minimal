@@ -195,6 +195,9 @@ let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 " Leaving this on causes "no such mapping" exceptions
 let g:UltiSnipsRemoveSelectModeMappings = 0
 
+" vim commentary
+autocmd FileType snippets set commentstring=#\ %s
+
 " Show letter prefix for lusty juggler
 let g:LustyJugglerShowKeys = 'a'
 
