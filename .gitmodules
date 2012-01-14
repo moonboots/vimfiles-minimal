@@ -139,3 +139,6 @@
 [submodule "available-bundles/vim-markdown"]
 	path = available-bundles/vim-markdown
 	url = https://github.com/hallison/vim-markdown.git
+[submodule "available-bundles/grep"]
+	path = available-bundles/grep
+	url = https://github.com/vim-scripts/grep.vim.git
