@@ -145,3 +145,6 @@
 [submodule "available-bundles/matchit"]
 	path = available-bundles/matchit
 	url = https://github.com/vim-scripts/matchit.zip.git
+[submodule "available-bundles/vim-eunuch"]
+	path = available-bundles/vim-eunuch
+	url = https://github.com/tpope/vim-eunuch.git
