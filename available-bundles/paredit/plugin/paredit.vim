@@ -1,0 +1,1 @@
+../../slimv/plugin/paredit.vim
