@@ -148,3 +148,6 @@
 [submodule "available-bundles/vim-eunuch"]
 	path = available-bundles/vim-eunuch
 	url = https://github.com/tpope/vim-eunuch.git
+[submodule "available-bundles/slimv"]
+	path = available-bundles/slimv
+	url = https://github.com/vim-scripts/slimv.vim.git
