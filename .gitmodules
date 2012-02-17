@@ -151,3 +151,6 @@
 [submodule "available-bundles/slimv"]
 	path = available-bundles/slimv
 	url = https://github.com/vim-scripts/slimv.vim.git
+[submodule "available-bundles/autoclose2"]
+	path = available-bundles/autoclose2
+	url = https://github.com/vim-scripts/AutoClose.git
