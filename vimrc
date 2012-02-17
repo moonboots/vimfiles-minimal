@@ -224,3 +224,8 @@ au BufRead,BufNewFile *.handlebars set ft=mustache
 au BufRead,BufNewFile *.do set ft=sh
 set ts=2
 
+"let g:ackprg="ack --color --ignore-dir=node_modules"
+let g:ackprg="ack -H --type-add less=.less --nocolor --nogroup --column --ignore-dir=node_modules --ignore-dir=dist --ignore-dir=google-code-prettify --ignore-dir=r.js"
+
+let Grep_Default_Options = '-I'
+let Grep_Skip_Dirs = '.git' 
