@@ -141,7 +141,7 @@
 	url = https://github.com/tpope/vim-markdown.git
 [submodule "available-bundles/grep"]
 	path = available-bundles/grep
-	url = https://github.com/vim-scripts/grep.vim.git
+  url = git@bitbucket.org:moonboots/grep.vim
 [submodule "available-bundles/matchit"]
 	path = available-bundles/matchit
 	url = https://github.com/vim-scripts/matchit.zip.git
