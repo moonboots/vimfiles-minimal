@@ -43,6 +43,8 @@ nnoremap <leader>b :BufExplorer<cr>
 set wildmode=list:longest   "make cmdline tab completion similar to bash
 set wildmenu                "enable ctrl-n and ctrl-p to scroll thru matches
 set wildignore=*.o,*.obj,*~,*.class,.git,*.swp,*.log "stuff to ignore when tab completing
+set wildignore+=*/node_modules/*,*.jar,*.class
+"set wildignore+=*/node_modules/*,*.jar,*.class,*/dist-dev/*.js
 "set wildignore+=*/.git/*,*/.hg/*,*/.svn/*   " for Linux/MacOSX
 
 "mark syntax errors with :signs
