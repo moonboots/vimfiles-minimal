@@ -98,10 +98,10 @@ syntax on
 filetype plugin indent on
 
 " Settings for VimClojure
-let vimclojure#HighlightBuiltins=1
-let vimclojure#HighlightContrib=1
-let vimclojure#DynamicHighlighting=1
-let vimclojure#ParenRainbow=1
+"let vimclojure#HighlightBuiltins=1
+"let vimclojure#HighlightContrib=1
+"let vimclojure#DynamicHighlighting=1
+"let vimclojure#ParenRainbow=1
 
 " hacks for specific file types, TODO organize into bundles
 "autocmd FileType clojure,lisp :AutoCloseOff
@@ -200,6 +200,13 @@ let g:UltiSnipsRemoveSelectModeMappings = 0
 
 " vim commentary
 autocmd FileType snippets set commentstring=#\ %s
+autocmd FileType nginx set commentstring=#\ %s | set smartindent
+autocmd FileType mustache set commentstring={{!\ %s\ }}
+autocmd FileType less set commentstring=//\ %s | set smartindent
+autocmd FileType tex set commentstring=%\ %s
+autocmd FileType erlang set commentstring=%%\ %s
+autocmd FileType lua set commentstring=--\ %s
+autocmd FileType lisp set commentstring=;\ %s
 
 " Show letter prefix for lusty juggler
 let g:LustyJugglerShowKeys = 'a'
