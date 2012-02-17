@@ -24,6 +24,7 @@ set expandtab
 set autoindent
 
 au BufNewFile,BufRead *.java set shiftwidth=4 | set softtabstop=4
+au BufRead,BufNewFile *.md set filetype=markdown
 
 "load ftplugins and indent files
 silent! nnoremap <silent> <Leader>p :NERDTreeToggle<CR>
