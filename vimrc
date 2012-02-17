@@ -219,3 +219,6 @@ let g:LustyJugglerShowKeys = 'a'
 "let vimclojure#ParenRainbow=1
 "let vimclojure#SplitPos = "right"
 
+au BufRead,BufNewFile */nginx/conf/* set ft=nginx | set smartindent
+au BufRead,BufNewFile *.handlebars set ft=mustache
+au BufRead,BufNewFile *.do set ft=sh
