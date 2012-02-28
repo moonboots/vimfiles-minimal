@@ -1,7 +1,7 @@
 " Adapted from https://github.com/akitaonrails/vimfiles 
 
 "necessary on some Linux distros for pathogen to properly load bundles
-filetype off
+"filetype off
 
 runtime available-bundles/vim-unbundle/unbundle.vim
 
