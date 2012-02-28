@@ -181,7 +181,7 @@ set smartcase
 
 "noremap <leader>v :tabedit $MYVIMRC<CR>
 nnoremap <leader>s :source $MYVIMRC<CR>
-nnoremap <leader>ev :vsplit $MYVIMRC<cr>
+nnoremap <leader>e :vsplit $MYVIMRC<cr>
 
 " Lock working directory in this project so ctrlp always searches correct
 " scope
