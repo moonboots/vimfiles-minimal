@@ -221,6 +221,7 @@ let g:LustyJugglerShowKeys = 'a'
 
 au BufRead,BufNewFile */nginx/conf/* set ft=nginx | set smartindent
 au BufRead,BufNewFile *.handlebars set ft=mustache
+au BufRead,BufNewFile *.lua set ft=lua
 au BufRead,BufNewFile *.do set ft=sh
 set ts=2
 
