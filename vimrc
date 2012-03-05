@@ -223,6 +223,7 @@ au BufRead,BufNewFile */nginx/conf/* set ft=nginx | set smartindent
 au BufRead,BufNewFile *.handlebars set ft=mustache
 au BufRead,BufNewFile *.lua set ft=lua
 au BufRead,BufNewFile *.do set ft=sh
+au BufRead,BufNewFile *.less set ft=less
 set ts=2
 
 "let g:ackprg="ack --color --ignore-dir=node_modules"
