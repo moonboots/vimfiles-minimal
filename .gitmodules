@@ -154,3 +154,6 @@
 [submodule "available-bundles/autoclose2"]
 	path = available-bundles/autoclose2
 	url = https://github.com/vim-scripts/AutoClose.git
+[submodule "available-bundles/javascript-syntax"]
+	path = available-bundles/javascript-syntax
+	url = https://github.com/vim-scripts/JavaScript-syntax.git
