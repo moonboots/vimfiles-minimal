@@ -134,7 +134,7 @@ set hidden
 
 " Pressing 'jk' simultaneously escapes
 " http://mattsa.posterous.com/vim-arpeggio
-call arpeggio#map('i', '', 0, 'jk', '<Esc>')
+call arpeggio#map('ivn', '', 0, 'jk', '<Esc>')
 
 " Default conflicts with yank ring
 noremap <silent> <leader>t :CtrlP<CR>
