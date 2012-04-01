@@ -171,10 +171,10 @@ let g:rbpt_colorpairs = [
 
 set rnu
 
-hi CursorLine term=NONE cterm=NONE ctermbg=88
+" hi CursorLine term=NONE cterm=NONE ctermbg=88
 
-au InsertEnter * set cursorline
-au InsertLeave * set nocursorline
+" au InsertEnter * set cursorline
+" au InsertLeave * set nocursorline
 
 set ignorecase
 set smartcase
@@ -235,3 +235,38 @@ let Grep_Skip_Dirs = '.git'
 inoremap {<CR> {<CR>}<Esc>O
 nnoremap <Leader>j ddkP
 nnoremap <Leader>k ddp
+
+" " use an orange cursor in insert mode
+" let &t_SI = "\033]38;05;178m"
+" " use a red cursor otherwise
+" let &t_EI = "\033]38;05;190m"
+" silent !echo -ne "\033]38;05;190m"
+" " reset cursor when vim exits
+" " autocmd VimLeave * silent !echo -ne "\033]112\007"
+" " use \003]12;gray\007 for gnome-terminal
+
+" change cursor color depending on content
+" colors from http://mkaz.com/solog/system/xterm-colors.html
+" hack for tmux from https://gist.github.com/1195581
+let insert_color = 'OrangeRed3'
+let regular_color = 'AliceBlue'
+if exists('$TMUX')
+  let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]12;".insert_color."\x7\<Esc>\\"
+  let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]12;".regular_color."\x7\<Esc>\\"
+else
+  let &t_SI = "\<Esc>]12;".insert_color."\x7"
+  let &t_EI = "\<Esc>]12;".regular_color."\x7"
+endif
+
+" " use an orange cursor in insert mode 
+" " let &t_SI = "\<Esc>]12;orange\x7" 
+" " let &t_SI = "\<Esc>]12;OrangeRed3\x7" 
+" let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]12;OrangeRed3\x7\<Esc>\\" 
+" " " use a red cursor otherwise 
+" " let &t_EI = "\<Esc>]12;red\x7" 
+" " let &t_EI = "\<Esc>]12;chartreuse3\x7" 
+" let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]12;chartreuse3\x7\<Esc>\\" 
+" " " silent !echo -ne "\033]12;red\007" 
+" " " reset cursor when vim exits 
+" " autocmd VimLeave * silent !echo -ne "\033]112\007" 
+" " " use \003]12;gray\007 for gnome-terminal 
