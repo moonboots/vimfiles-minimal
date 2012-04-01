@@ -207,6 +207,7 @@ autocmd FileType tex set commentstring=%\ %s
 autocmd FileType erlang set commentstring=%%\ %s
 autocmd FileType lua set commentstring=--\ %s
 autocmd FileType lisp set commentstring=;\ %s
+autocmd FileType xdefaults set commentstring=!\ %s
 
 " Show letter prefix for lusty juggler
 let g:LustyJugglerShowKeys = 'a'
