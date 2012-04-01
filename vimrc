@@ -273,3 +273,6 @@ endif
 " " " use \003]12;gray\007 for gnome-terminal 
 
 set noesckeys
+
+" http://vim.wikia.com/wiki/Backspace_and_delete_problems
+set backspace=2
