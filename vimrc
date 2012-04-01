@@ -233,7 +233,7 @@ let g:ackprg="ack -H --type-add less=.less --nocolor --nogroup --column --ignore
 let Grep_Default_Options = '-I'
 let Grep_Skip_Dirs = '.git' 
 
-inoremap {<CR> {<CR>}<Esc>O
+" inoremap {<CR> {<CR>}<Esc>O
 nnoremap <Leader>j ddkP
 nnoremap <Leader>k ddp
 
