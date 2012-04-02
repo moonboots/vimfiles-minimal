@@ -11,13 +11,13 @@ snippet '':f "object method string"
 }${10:,}
 endsnippet
 
-snippet :f "Object Method"
+snippet :f "Object Method" w
 ${1:method_name}: function(${3:attribute}){
 	$0
 }${10:,}
 endsnippet
 
-snippet f "Anon function"
+snippet f "Anon function" w
 function ($1) {
   $0
 }$2
@@ -80,6 +80,12 @@ endsnippet
 
 snippet req
 var ${1:module} = require('$1');
+endsnippet
+
+snippet ready "JQuery document ready"
+$(document).ready(function() {
+  $0
+});
 endsnippet
 
 # vim:ft=snippets:
