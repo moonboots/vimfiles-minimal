@@ -61,7 +61,7 @@ let g:CommandTMatchWindowAtTop=0
 
 set hlsearch
 " Press Space to turn off highlighting and clear any message already displayed.
-:nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
+nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 
 " Control+Space to escape
 noremap <C-Space> <Esc>
