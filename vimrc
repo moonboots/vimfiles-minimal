@@ -191,10 +191,12 @@ autocmd BufNewFile,BufRead /home/jack/code/js/flashcards-complete/* cd /home/jac
 nnoremap <silent> <leader>yr :YRShow<CR> 
 
 " ultisnips
-let g:UltiSnipsSnippetsDir="~/.vim/available-bundles/ultisnips/UltiSnips"
+noremap <Leader>u :UltiSnipsEdit<CR>
+" let g:UltiSnipsSnippetsDir="~/.vim/available-bundles/ultisnips/UltiSnips"
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
+let g:UltiSnipsEditSpli="vertical"
 
 " Leaving this on causes "no such mapping" exceptions
 let g:UltiSnipsRemoveSelectModeMappings = 0
