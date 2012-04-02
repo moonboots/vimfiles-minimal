@@ -16,9 +16,6 @@
 [submodule "available-bundles/javascript"]
 	path = available-bundles/javascript
 	url = git://github.com/pangloss/vim-javascript.git
-[submodule "available-bundles/vim-autoclose"]
-	path = available-bundles/vim-autoclose
-	url = git://github.com/Townk/vim-autoclose.git
 [submodule "available-bundles/csapprox"]
 	path = available-bundles/csapprox
 	url = git://github.com/godlygeek/csapprox.git
