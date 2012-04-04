@@ -1,7 +1,6 @@
 " Adapted from https://github.com/akitaonrails/vimfiles 
 
-"necessary on some Linux distros for pathogen to properly load bundles
-"filetype off
+filetype on
 
 runtime available-bundles/vim-unbundle/unbundle.vim
 
@@ -23,7 +22,6 @@ set softtabstop=2
 set expandtab
 " set autoindent
 
-au BufNewFile,BufRead *.java set shiftwidth=4 | set softtabstop=4
 au BufRead,BufNewFile *.md set filetype=markdown
 
 "load ftplugins and indent files
@@ -105,7 +103,7 @@ filetype plugin indent on
 
 " hacks for specific file types, TODO organize into bundles
 "autocmd FileType clojure,lisp :AutoCloseOff
-autocmd FileType java set tabstop=4 shiftwidth=4 softtabstop=0 smarttab noexpandtab
+" smart frog
 au BufRead,BufNewFile *.sf set filetype=java
 
 " in vimdiff, press du to undo
