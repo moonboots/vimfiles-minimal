@@ -160,3 +160,6 @@
 [submodule "available-bundles/vim-pasta"]
 	path = available-bundles/vim-pasta
 	url = https://github.com/sickill/vim-pasta.git
+[submodule "available-bundles/vim-less"]
+	path = available-bundles/vim-less
+	url = https://github.com/groenewege/vim-less.git
