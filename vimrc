@@ -138,10 +138,8 @@ set hidden
 noremap <silent> <leader>t :CtrlP<CR>
 let g:ctrlp_working_path_mode = 0
 
-autocmd FileType java set autoindent | set si | set shiftwidth=4 | set cinoptions+=j1
 autocmd FileType scala set autoindent | set si | set shiftwidth=2 | set cinoptions+=j1
 
-au BufRead,BufNewFile *.less setfiletype less | set autoindent
 au BufRead,BufNewFile *.rl setfiletype ragel
 
 nnoremap <F9> :set paste!<BAR>:set paste?<CR>
